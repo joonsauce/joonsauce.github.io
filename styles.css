@@ -201,5 +201,6 @@ nav {
   }
   .contact {
     font-size: 3vw;
+    align-items: center;
   }
 }
