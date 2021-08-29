@@ -1,0 +1,33 @@
+.item-container {
+    display: flex;
+    width: 100%;
+    height: 90%;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.item {
+    display: flex;
+    width: 30%;
+    height: 40%;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.item-image {
+    width: 20vw;
+}
+
+.item-header {
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.item-desc {
+    color: white;
+    text-align: center;
+    font-size: 1.25vw;
+}
