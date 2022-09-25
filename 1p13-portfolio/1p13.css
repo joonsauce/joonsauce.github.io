@@ -1,7 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    background-color: #ddd;
+    background-color: #dcdcdc;
     font-family: 'made_evolve_medium', Arial, sans-serif;
 }
 
@@ -25,6 +25,10 @@ a:link, a:visited {
     text-decoration: none;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 nav{
     position: sticky;
     position: -webkit-sticky;
@@ -37,8 +41,8 @@ nav{
     height: 10%;
     justify-content: flex-end;
     align-items: center;
-    margin-top: 0;
-    padding-top: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .topbar {
@@ -86,10 +90,6 @@ nav{
 
 .cont-right {
     width: 50%;
-}
-
-::-webkit-scrollbar {
-    display: none;
 }
 
 @media screen and (max-aspect-ratio: 4/3) {
