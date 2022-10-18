@@ -27,6 +27,35 @@
     justify-content: flex-start;
 }
 
+.p-proj-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.p-proj-modal-content {
+    background-color: #dcdcdc;
+    /*need to add some other style stuff here*/
+}
+
+.p-proj-modal-button {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    color: #202020;
+    font-size: 1.5vw;
+    padding-left: 5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-family: 'made_evolve_thin', Arial, sans-serif;
+}
+
 .p-proj-title {
     color: #202020;
     font-size: 1.5vw;
