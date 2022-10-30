@@ -38,7 +38,8 @@
 }
 
 .p-proj-modal-content {
-    background-color: #dcdcdc;
+    display: none;
+    background-color: blue;
     /*need to add some other style stuff here*/
 }
 
