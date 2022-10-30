@@ -1,17 +1,17 @@
-var modal = docment.getElementByID('openpdf');
-var button = document.getElementByID("openpdfbutton");
-var closemodal = document.getElementsByClassName('close')[0];
+var modal = document.getElementById("openpdf");
+var btn = document.getElementById("openpdfbutton");
+var span = document.getElementsByClassName("close")[0];
 
-button.onclick = function() {
-    modal.style.display = 'flex';
+btn.onclick = function() {
+  modal.style.display = "block";
 }
 
-closemodal.onclick = function() {
-    modal.style.display = 'none';
+span.onclick = function() {
+  modal.style.display = "none";
 }
 
 window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = 'none';
-    }
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
 }
