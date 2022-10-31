@@ -1,4 +1,5 @@
 var modal = document.getElementById("openpdf");
+var btn0 = document.getElementById("openpdfbutton0");
 var btn1 = document.getElementById("openpdfbutton1");
 var btn2 = document.getElementById("openpdfbutton2");
 var btn3a = document.getElementById("openpdfbutton3a");
@@ -12,6 +13,12 @@ var span = document.getElementsByClassName("p-proj-modal-close")[0];
 
 
 // When the user clicks on the button, open the modal
+btn0.onclick = function() {
+    modal.style.display = "flex";
+    pdf = document.getElementById("pdfviewer");
+    pdf.data = "/1p13-portfolio/1p13-media/p1/milestone0.pdf";
+}
+
 btn1.onclick = function() {
     modal.style.display = "flex";
     pdf = document.getElementById("pdfviewer");
