@@ -65,8 +65,18 @@
 
 .p-proj-desc {
     color: #202020;
-    font-size: 1.75vw;
+    font-size: 1.5vw;
     padding-left: 5%;
     padding-right: 5%;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 175%;
     font-family: 'made_evolve_thin', Arial, sans-serif;
+}
+
+.p-proj-leftbar-img {
+    width: 90%;
+    padding: 0;
+    margin: 0;
+    padding-left: 5%;
 }
