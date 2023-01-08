@@ -40,6 +40,13 @@
     font-family: 'made_evolve_thin', Arial, sans-serif;
 }
 
+.proj-img {
+    width: 90%;
+    padding: 0;
+    margin: 0;
+    padding-left: 5%;
+}
+
 @media screen and (max-aspect-ratio: 4/3) {
     .container {
         flex-flow: column nowrap;
