@@ -63,7 +63,7 @@
     margin: 0;
     padding: 0;
     cursor: pointer;
-    color: #202020;
+    color: #dcdcdc;
     font-size: 1.5vw;
     margin-left: 5%;
     padding-left: 0%;
@@ -106,13 +106,13 @@
 }
 
 .p-proj-title {
-    color: #202020;
+    color: #dcdcdc;
     font-size: 1.5vw;
     padding-left: 5%;
 }
 
 .p-proj-heading-top {
-    color: #202020;
+    color: #dcdcdc;
     font-size: 1.75vw;
     padding: 0 5% 1.5% 5%;
     margin: 0 0 0 0;
@@ -121,7 +121,7 @@
 }
 
 .p-proj-heading-rest {
-    color: #202020;
+    color: #dcdcdc;
     font-size: 1.75vw;
     padding: 1.5% 5% 1.5% 5%;
     margin: 0 0 0 0;
@@ -130,7 +130,7 @@
 }
 
 .p-proj-desc {
-    color: #202020;
+    color: #dcdcdc;
     font-size: 1.25vw;
     padding: 0 5% 0 5%;
     margin: 0 0 0 0;

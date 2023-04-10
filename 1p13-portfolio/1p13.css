@@ -1,7 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    background-color: #dcdcdc;
+    background-color: #202020;
     font-family: 'made_evolve_medium', Arial, sans-serif;
 }
 
@@ -43,7 +43,7 @@ nav{
     align-items: center;
     margin: 0;
     padding: 0;
-    background-color: #dcdcdc;
+    background-color: #202020;
 }
 
 .topbar {
@@ -69,7 +69,7 @@ nav{
     margin-left: 10%;
     font-family: 'made_evolve_thin', Arial, sans-serif;
     font-size: 1vw;
-    color: #202020;
+    color: #dcdcdc;
 }
 
 .page-container {
@@ -93,21 +93,6 @@ nav{
     width: 50%;
 }
 
-@media screen and (max-aspect-ratio: 4/3) {
-    .main-header{
-        font-size: 5vw;
-    }
-    .main-desc{
-        font-size: 3vw;
-    }
-    .topbar-text {
-        font-size: 2vw;
-    }
-    .proj-cont {
-        flex-flow: column;
-    }
-}
-
 .leftbar {
     display: flex;
     height: 100%;
@@ -127,15 +112,20 @@ nav{
 }
 
 .about-header {
-    color: #202020;
+    color: #dcdcdc;
+    font-size: 2.25vw;
+}
+
+.about-header2 {
+    color: #dcdcdc;
     font-size: 1.75vw;
 }
 
 .about-desc {
-    color: #202020;
-    font-size: 1.25vw;
+    color: #dcdcdc;
+    font-size: 1.5vw;
     font-family: 'made_evolve_thin', Arial, sans-serif;
-    padding-right: 10%;
+    /* padding-right: 10%; */
     margin-top: 0;
 }
 
@@ -154,7 +144,7 @@ nav{
 
 .contact-text {
     padding-left: 5%;
-    color: #202020;
+    color: #dcdcdc;
     font-size: 1.25vw;
     font-family: 'made_evolve_thin', Arial, sans-serif;
 }
@@ -172,4 +162,15 @@ nav{
     .contact-img {
         width: 6vw;
     }
+}
+
+span {
+    border-right: .1em solid;
+    animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+    50% {
+    border-color: transparent;
+  }
 }
