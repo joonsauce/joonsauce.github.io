@@ -129,6 +129,37 @@ nav{
     margin-top: 0;
 }
 
+.container {
+    display: flex;
+    width: 100%;
+    height: 90%;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.proj-title {
+    color: #dcdcdc;
+    font-size: 2.5vw;
+    padding-left: 5%;
+}
+
+.proj-desc {
+    color: #dcdcdc;
+    font-size: 1.5vw;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'made_evolve_thin', Arial, sans-serif;
+}
+
+.proj-img {
+    width: 90%;
+    padding: 0;
+    margin: 0;
+    padding-left: 5%;
+}
+
 .contact {
     width: 50%;
     height: 10%;
@@ -147,6 +178,28 @@ nav{
     color: #dcdcdc;
     font-size: 1.25vw;
     font-family: 'made_evolve_thin', Arial, sans-serif;
+}
+
+@media screen and (max-aspect-ratio: 4/3) {
+    .container {
+        flex-flow: column nowrap;
+    }
+    .leftbar {
+        height: 40%;
+        width: 100%;
+    }
+    .rightbar {
+        height: 60%;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .proj-title{
+        font-size: 5vw;
+    }
+    .proj-desc {
+        font-size: 3vw
+    }
 }
 
 @media screen and (max-aspect-ratio: 4/3) {
