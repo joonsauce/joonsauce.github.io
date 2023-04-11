@@ -10,9 +10,16 @@
         <script>
         $(document).ready(function(){
             $("#overview").fadeIn(1500);  
-            $("#figure1").delay(500).fadeIn(3000);
-            $("#skills").delay(1250).fadeIn(3000);
-            $("#figure2").delay(2000).fadeIn(3000);
+            $("#figure1").delay(500).fadeIn(2000);
+            $("#skills").delay(1250).fadeIn(2000);
+            $("#figure2").delay(2000).fadeIn(2000);
+            $("#design").delay(2500).fadeIn(2000);
+            $("#figure3").delay(3000).fadeIn(2000);
+            $("#admin").delay(3500).fadeIn(2000);
+            $("#figure4").delay(4000).fadeIn(2000);
+            $("#learn").delay(4500).fadeIn(2000);
+            $("#figure5").delay(5000).fadeIn(2000);
+            $("#thoughts").delay(5500).fadeIn(2000);
         });
         </script>
         <title>Project 3: Revenge of the Recycling System</title>
@@ -36,7 +43,7 @@
             <p class="p-proj-desc"><b>The Solution: </b>A hydraulic mechanism to </p>
         </div>
         <div id="figure1" class="p-container" style="display: none">
-            <img src="/media/1p13/p3_cad_raised.png" class="p-proj-leftbar-img">
+            <img src="/media/1p13/p3_cad_raised.png" class="p-proj-figure">
             <p class="p-proj-desc"><b>Figure 1: </b>Final CAD assembly of hopper depositing mechanism</p>
         </div>
         <div id="skills" class="p-container" style="display: none; margin-top: 0">
@@ -46,57 +53,71 @@
         </div>
         <div id="figure2" class="p-container" style="display: none">
             <!-- use a different image here -->
-            <img src="/media/1p13/p3_cad_raised.png" class="p-proj-leftbar-img">
+            <img src="/media/1p13/p3_cad_raised.png" class="p-proj-figure">
             <p class="p-proj-desc"><b>Figure 2: </b>Final CAD assembly of hopper depositing mechanism</p>
         </div>
-            
+        <div id="design" class="p-container" style="display: none">
+            <h3 class="p-proj-heading-rest"><u>Design Process</u></h3>
+            <p class="p-proj-desc"><b>Initial Research: </b>The team gathered initial information about the scope of the client's medical 
+            problems</p>
+            <p class="p-proj-desc"><b>Problem Framing: </b>The team met several times to accurately define the problem, then came up with the 
+            objective, function, and constraints of our solution</p>
+            <p class="p-proj-desc"><b>Initial Prototype: </b>The team of four split into a computing and modeling sub-team to create basic 
+            hardware and software prototypes to get started</p>
+            <p class="p-proj-desc"><b>Planning: </b>Each sub-team came up with a timeline on completion of smaller parts of the project; 
+            the computing sub-team came up with a flowchart for the machine learning backend and the embedded software while the modeling 
+            sub-team came up with a to-do list of small parts they needed to create.</p>
+            <p class="p-proj-desc"><b>Development: </b>The computing sub-team split into a machine learning and embedded sub-team to 
+            develop each software separately</p>
+            <p class="p-proj-desc"><b>Code Review: </b>The computing sub-team converged together multiple times to make sure small parts 
+            of each other's work was functioning as intended and would be compatible with each other's code</p>
+            <p class="p-proj-desc"><b>Testing: </b>I tested my code (embedded software of ESP32-CAM) with the electrical components to 
+            ensure the code sends images correctly over a Bluetooth connection. I also tested the front-end of WIFOM to make sure it 
+            receives the images from the ESP32-CAM.</p>
+            <p class="p-proj-desc"><b>Fitting: </b>I met with the modeling team multiple times to make sure the electrical</p>
+        </div>
+        <div id="figure3" class="p-container" style="display: none">
+            <!-- use a different image here -->
+            <img src="/media/projects/blocky.png" class="p-proj-figure">
+            <p class="p-proj-desc"><b>Figure 3: </b></p>
+        </div>
+        <div id="admin" class="p-container" style="display: none">
+            <h3 class="p-proj-heading-rest"><u>Administrative Role</u></h3>
+            <p class="p-proj-desc"><b>Role: </b>I was the Coordinator</p>
+            <p class="p-proj-desc"><b>Responsibilities: </b>I took notes during weekly progress meetings and completed the Logbook of Additional 
+            Meetings and Discussions</p>
+            <p class="p-proj-desc"><b>Expectations: </b>Coordinated meetings outside of Design Studio and kept a record of meetings outside of 
+            given class time</p>
+        </div>
+        <div id="figure4" class="p-container" style="display: none">
+            <!-- use a different image here -->
+            <img src="/media/projects/blocky.png" class="p-proj-figure">
+            <p class="p-proj-desc"><b>Figure 4: </b></p>
+        </div>
+        <div id="learn" class="p-container" style="display: none">
+            <h3 class="p-proj-heading-rest"><u>What I learned</u></h3>
+            <p class="p-proj-desc"><b>Inter-team collaboration: </b>I learned how create software while collaborating with different sub-teams, 
+            including making sure the camera could communicate with the machine learning backend, and making sure the electrical components would 
+            function as intended when closed inside the glasses.</p>
 
-        <!-- fix everything below this comment -->
-        <!-- <div class="p-container">
-            <div class="p-leftbar">
-                <img src="/media/1p13/p1_deflection.png" class="p-proj-leftbar-img">
-                <p class="p-proj-desc"><b>Figure 1: </b>The final CAD model & deflection simulation of the blade using low-carbon steel.</p>
-                <img src="/media/1p13/p1_grantagraph.png" class="p-proj-leftbar-img">
-                <p class="p-proj-desc"><b>Figure 2: </b>Yield Strength vs. Density * Embodied energy (maximize strength while minimizing density & energy needed for manufacturing)</p>
-                <img src="/media/1p13/p1_gantt.png" class="p-proj-leftbar-img">
-                <p class="p-proj-desc"><b>Figure 3: </b>Final Gantt Chart detailing project timeline</p>
-            </div>
-            <div class="p-rightbar">
-                <h3 class="p-proj-heading-top"><u>Project overview</u></h3>
-                <p class="p-proj-desc"><b>The Goal: </b>Sweden to reach net zero greenhouse emissions by 2045</p>
-                <p class="p-proj-desc"><b>The Task: </b>Design a clean and sustainable wind turnbine blade for use in a wind farm</p>
-                <p class="p-proj-desc"><b>The Constraints: </b>8.5mm < Blade deflection < 10mm </p>
-                <p class="p-proj-desc"><b>The Solution: </b>Maximize blade efficiency while being eco-friendly</p>
-                <h3 class="p-proj-heading-rest"><u>Skills Used</u></h3>
-                <p class="p-proj-desc"><b>Soft Skills: </b>Collaboration, Engineering Report Writing, Time Management</p>
-                <p class="p-proj-desc"><b>Technical Skills: </b>Autodesk Inventor, ANSYS-GRANTA EduPack, Microsoft Office</p>
-                <h3 class="p-proj-heading-rest"><u>Design Process</u></h3>
-                <p class="p-proj-desc"><b>Initial Research: </b>The team gathered information about wind turbine blade design and shared the knowledge 
-                amongst each other</p>
-                <p class="p-proj-desc"><b>Problem Framing: </b>The team met several times to properly define the problem, then came up with the 
-                objective, function, and constraints of our blade design</p>
-                <p class="p-proj-desc"><b>MPI Selection: </b>The team chose the two main objectives to be minimizing energy required to manufacture 
-                the blade and minimizing CO2 production</p>
-                <p class="p-proj-desc"><b>Materials Selection: </b>The team took the most common materials that showed up for each MPI then used a 
-                weighted decision matrix to choose our final material</p>
-                <p class="p-proj-desc"><b>Deflection Simulation: </b>The team ran deflection simulations on various thicknesses of the blade 
-                to find allow maximum deflection of the blade</p>
-                <h3 class="p-proj-heading-rest"><u>Administrative Role</u></h3>
-                <p class="p-proj-desc"><b>Role: </b>I was the Subject Matter Expert</p>
-                <p class="p-proj-desc"><b>Responsibilities: </b>I created and shared the collaborative working document for the team and completed the 
-                Source Materials Database</p>
-                <p class="p-proj-desc"><b>Expectations: </b>Ensured that the team worked on the Project Report in a collaborative manner and that the 
-                sources used in the project are broad and reliable</p>
-                <h3 class="p-proj-heading-rest"><u>What I learned</u></h3>
-                <p class="p-proj-desc"><b>Collaboration: </b>I learned how to complete engineering projects as a team. I also learned that having 
-                multiple people helped getting ideas on the table faster.</p>
-                <p class="p-proj-desc"><b>Time management: </b>Since Design Studio times were limited and always had milestones to complete, I 
-                learned how to more efficiently get things done.</p>
-                <h3 class="p-proj-heading-rest"><u>Final Thoughts</u></h3>
-                <p class="p-proj-desc">Given that this was the first ever engineering project anyone in the entire team had really undertaken, 
+
+            <p class="p-proj-desc"><b>Time management: </b>Since Design Studio times were limited and always had milestones to complete, I 
+            learned how to more efficiently get things done.</p>
+        </div>
+        <div id="figure5" class="p-container" style="display: none">
+            <!-- use a different image here -->
+            <img src="/media/projects/blocky.png" class="p-proj-figure">
+            <p class="p-proj-desc"><b>Figure 5: </b></p>
+        </div>
+        <div id="thoughts" class="p-container" style="display: none; padding-bottom: 5%">
+            <h3 class="p-proj-heading-rest"><u>Final Thoughts</u></h3>
+                <p class="p-proj-desc">Given the complexity of the solution in such a short amount of time, I think the project went quite 
+                smoothly. All members of the team came out of the project with learning something new technical, and with a better sense of 
+                how to split time up better to ensure the project comes to its conclusion faster.</p>
+                    
+                    <!-- Given that this was the first ever engineering project anyone in the entire team had really undertaken, 
                 all things went very smoothly. I think we all learned something about how to work better in a team and how to approach engineering 
-                projects in general.</p>
-            </div>
-        </div> -->
+                projects in general.</p> -->
+        </div>
     </body>
 </html>
