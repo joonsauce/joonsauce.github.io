@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'made_evolve_medium';
+  src: url('/made_evolve_medium.woff2') format('woff2'),
+       url('/made_evolve_medium.woff') format('woff');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'made_evolve_thin';
+  src: url('/made_evolve_thin.woff2') format('woff2'),
+       url('/made_evolve_thin.woff') format('woff');
+  font-weight: lighter;
+  font-style: normal;
+}
