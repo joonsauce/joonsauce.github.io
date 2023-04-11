@@ -6,14 +6,7 @@
         <link rel="stylesheet" href="1p13.css">
         <link rel="shortcut icon" href="/media/logo.png" type="image/x-icon">
         <script src="/jquery-3.6.4.js"></script>
-        <script>
-            $(document).ready(function(){
-                $("#l1").fadeIn(2000);  
-                $("#l2").delay(0).fadeIn(2500);
-                $("#latest-project").delay(500).fadeIn(2500);
-                $("#about").delay(2000).fadeIn(2000);
-            });
-        </script>
+        <script src="/1p13-portfolio/main.js"></script>
         <title>Joon's 1P13 Learning Portfolio</title>
     </head>
     <body>
@@ -40,19 +33,7 @@
                     <p class="proj-desc">Find out more about the glasses <a href="/1p13-portfolio/1p13-projects/p-4" style="color: #71f7a2;">here</a>!</p>
                 </div>
             </div>
-            <div class="container" style="display:none" id="about">
-                <div class="page-container">
-                    <img src="/media/joon.jpg" style="width: 25vw; padding-top: 5%">
-                    <h2 class="about-header" id="contact">Get in touch!</h2>
-                    <div class="contact">
-                        <img src="/media/contact/linkedin.png" class="contact-img">
-                        <p class="contact-text">Connect with me on LinkedIn <a href="https://www.linkedin.com/in/joonsauce" target="_blank" style="color: #71f7a2">here</a>!</p>
-                    </div>
-                    <div class="contact" style="padding-bottom: 3%;">
-                        <img src="/media/contact/github.png" class="contact-img">
-                        <p class="contact-text">View my projects <a href="https://github.com/joonsauce" target="_blank" style="color: #71f7a2">here</a>!</p>
-                    </div> 
-                </div>
+            <div class="container2" style="display:none" id="about">
                 <div class="page-container">
                     <h3 class="about-header2">Progress Tracker</h3>
                     <p class="about-desc"><a href="/1p13-portfolio/1p13-projects/p-1/" style="color:#71f7a2">Project 1</a> - September - October 2022 ✅</p>
@@ -62,9 +43,41 @@
                 </div>
                 <div class="page-container">
                     <h3 class="about-header2">Skills</h3>
-                    <p class="about-desc">- Python <br>- HTML<br>- CSS<br>- JS<br>- C<br>- C++<br>- Arduino C<br>- Autodesk Inventor<br>- Quanser Interactive 
-                    Labs</p>
+                    <p class="about-skills"><img src="/media/skills/python.png" class="about-skills-img">&#160Python</p>
+                    <p class="about-skills"><img src="/media/skills/html.png" class="about-skills-img">&#160HTML</p>
+                    <p class="about-skills"><img src="/media/skills/css.png" class="about-skills-img">&#160CSS</p>
+                    <p class="about-skills"><img src="/media/skills/js.png" class="about-skills-img">&#160JS</p>
+                    <p class="about-skills"><img src="/media/skills/cpp.png" class="about-skills-img">&#160C++</p>
+                    <p class="about-skills"><img src="/media/skills/autodesk.png" class="about-skills-img">&#160Autodesk Inventor</p>
                 </div>
+            </div>
+            <div class="container3" id="joon" style="display:none">
+                <div class="leftbar">
+                    <img src="/media/joon.jpg" style="width: 25vw">
+                </div>
+                <div class="rightbar2">
+                    <p class="about-desc" style="padding-right: 10%">I am an Engineering I Student at McMaster University with a passion for technology. My goal is to 
+                    enroll in the Software Engineering stream for Level II. </p>
+                    <p class="about-desc" style="padding-right: 10%">My main field of interest is in computer technology, whether they are physical items that I can 
+                    see or the invisible lines of code that keeps them working. My interest led me to be involved in many unique projects, ranging from go-kart 
+                    ECU's to games you can play solely by talking to your phone. On this website you can see my projects from my time at 
+                    McMaster University's ENGINEER 1P13 course.
+                    </p>
+                    <p class="about-desc" style="padding-right:10%"> During my free time, I enjoy playing soccer, playing video games, and (mostly) just listening 
+                    to music. Previously, I spent lots of time graphic designing for the subscription-based snack service that I work on called Re-Fill.
+                    </p>
+                </div>
+            </div>
+            <div class="container4" id="contact" style="display:none">
+                <h2 class="about-header" id="contact">Get in touch!</h2>
+                <div class="contact">
+                    <img src="/media/contact/linkedin.png" class="contact-img">
+                    <p class="contact-text">Connect with me on LinkedIn <a href="https://www.linkedin.com/in/joonsauce" target="_blank" style="color: #71f7a2">here</a>!</p>
+                </div>
+                <div class="contact" style="padding-bottom: 3%;">
+                    <img src="/media/contact/github.png" class="contact-img">
+                    <p class="contact-text">View my projects <a href="https://github.com/joonsauce" target="_blank" style="color: #71f7a2">here</a>!</p>
+                </div> 
             </div>
         </div>
         <script src="1p13.js"></script>
