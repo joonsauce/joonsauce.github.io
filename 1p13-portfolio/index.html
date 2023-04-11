@@ -5,6 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
         <link rel="stylesheet" href="1p13.css">
         <link rel="shortcut icon" href="/media/logo.png" type="image/x-icon">
+        <script src="/jquery-3.6.4.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#l1").fadeIn(2000);  
+                $("#l2").delay(0).fadeIn(2500);
+                $("#latest-project").delay(500).fadeIn(2500);
+                $("#about").delay(2000).fadeIn(2000);
+            });
+        </script>
         <title>Joon's 1P13 Learning Portfolio</title>
     </head>
     <body>
@@ -19,9 +28,9 @@
         </nav>
         <div class="page-container">
             <h2 class="about-header" id="animation"> </h2>
-            <p class="about-desc">Creating new things is my passion.</p>
-            <p class="about-desc">Here is my latest project:</p>
-            <div class="container" id="latest-project">
+            <p class="about-desc" id="l1" style="display:none">Creating new things is my passion.</p>
+            <p class="about-desc" id="l2" style="display:none">Here is my latest project:</p>
+            <div class="container" id="latest-project" style="display:none">
                 <div class="leftbar">
                     <img src="/media/1p13/p4_wifom.png" style="width: 25vw;">
                 </div>
@@ -31,7 +40,7 @@
                     <p class="proj-desc">Find out more about the glasses <a href="/1p13-portfolio/1p13-projects/p-4" style="color: #71f7a2;">here</a>!</p>
                 </div>
             </div>
-            <div class="container">
+            <div class="container" style="display:none" id="about">
                 <div class="page-container">
                     <img src="/media/joon.jpg" style="width: 25vw; padding-top: 5%">
                     <h2 class="about-header" id="contact">Get in touch!</h2>
