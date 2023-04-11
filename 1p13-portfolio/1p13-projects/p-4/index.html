@@ -4,20 +4,103 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
         <link rel="stylesheet" href="/1p13-portfolio/1p13.css">
-        <link rel="stylesheet" href="/1p13-portfolio/1p13p.css">
+        <link rel="stylesheet" href="/1p13-portfolio/1p13-projects/1p13p-p.css">
         <link rel="shortcut icon" href="/media/logo.png" type="image/x-icon">
-        <title>1P13 P-4</title>
+        <script src="/jquery-3.6.4.js"></script>
+        <script>
+        $(document).ready(function(){
+            $("#overview").fadeIn(1500);  
+            $("#figure1").delay(500).fadeIn(3000);
+            $("#skills").delay(1250).fadeIn(3000);
+            $("#figure2").delay(2000).fadeIn(3000);
+        });
+        </script>
+        <title>Project 4: Power in Community</title>
     </head>
     <body>
         <nav class="topbar-container">
             <div class="topbar-logo-cont">
                 <a href="/"><img src="/media/logo.png" style="width: 4vw;"></a>
+                <h2 class="p-proj-title">Project 4: Power in Community</h2>
             </div>
             <div class="topbar">
                 <a href="/1p13-portfolio" class="topbar-text"><h2>Home</h2></a>
-                <a href="/1p13-portfolio/1p13-projects" class="topbar-text"><h2>Projects</h2></a>
+                <a href="/1p13-portfolio/1p13-projects/" class="topbar-text"><h2>Projects</h2></a>
             </div>
         </nav>
-        
+
+        <div id="overview" class="p-container" style="display: none">
+            <h3 class="p-proj-heading-top" id="overview-heading"><u>Project overview</u></h3>
+            <p class="p-proj-desc"><b>The Goal: </b>Help visually impaired people be better aware of their surroundings</p>
+            <p class="p-proj-desc"><b>The Task: </b>Create a system to help our client be better aware of his surroundings</p>
+            <p class="p-proj-desc"><b>The Constraints: </b>Be comfortable, be easy to use, be affordable</p>
+            <p class="p-proj-desc"><b>The Solution: </b>Design wearable technology to convey information about the user's surroundings</p>
+        </div>
+        <div id="figure1" class="p-container" style="display: none">
+            <img src="/media/1p13/p4_wifom.png" class="p-proj-leftbar-img">
+            <p class="p-proj-desc"><b>Figure 1: </b>Final CAD assembly of the WIFOM glasses</p>
+        </div>
+        <div id="skills" class="p-container" style="display: none; margin-top: 0">
+            <h3 class="p-proj-heading-rest"><u>Skills Used</u></h3>
+            <p class="p-proj-desc"><b>Soft Skills: </b>Collaboration, Engineering Report Writing, Time Management</p>
+            <p class="p-proj-desc"><b>Technical Skills: </b>HTML, CSS, JS, C, C++, Arduino C, ESP32 Hardware, Microsoft Office</p>
+        </div>
+        <div id="figure2" class="p-container" style="display: none">
+            <!-- use a different image here -->
+            <img src="/media/1p13/p4_webapp.png" class="p-proj-leftbar-img">
+            <p class="p-proj-desc"><b>Figure 2: </b>Final UI of WIFOM web app</p>
+        </div>
+
+
+
+
+        <!-- fix everything below this comment -->
+        <!-- <div class="p-container">
+            <div class="p-rightbar">
+                <h3 class="p-proj-heading-rest"><u>Design Process</u></h3>
+                <p class="p-proj-desc"><b>Initial Research: </b>The team gathered initial information about the scope of the client's medical 
+                problems</p>
+                <p class="p-proj-desc"><b>Problem Framing: </b>The team met several times to properly define the problem, then came up with the 
+                objective, function, and constraints of our solution</p>
+                <p class="p-proj-desc"><b>Initial Prototype: </b>The team split into a computing and modeling subteam to create a basic prototype 
+                of our solution</p>
+
+
+                <p class="p-proj-desc"><b>Problem Framing: </b>The team met several times to properly define the problem, then came up with the 
+                objective, function, and constraints of our solution</p>
+
+                <p class="p-proj-desc"><b>MPI Selection: </b>The team chose the two main objectives to be minimizing energy required to manufacture 
+                the blade and minimizing CO2 production</p>
+                <p class="p-proj-desc"><b>Materials Selection: </b>The team took the most common materials that showed up for each MPI then used a 
+                weighted decision matrix to choose our final material</p>
+                <p class="p-proj-desc"><b>Deflection Simulation: </b>The team ran deflection simulations on various thicknesses of the blade 
+                to find allow maximum deflection of the blade</p>
+
+                <h3 class="p-proj-heading-rest"><u>Administrative Role</u></h3>
+                <p class="p-proj-desc"><b>Role: </b>I was the Coordinator</p>
+                <p class="p-proj-desc"><b>Responsibilities: </b>I took notes during weekly progress meetings and completed the Logbook of Additional 
+                Meetings and Discussions</p>
+                <p class="p-proj-desc"><b>Expectations: </b>Coordinated meetings outside of Design Studio and kept a record of meetings outside of 
+                given class time</p>
+
+                <h3 class="p-proj-heading-rest"><u>What I learned</u></h3>
+                <p class="p-proj-desc"><b>Inter-team collaboration: </b>I learned how create software while collaborating with different sub-teams, 
+                including making sure the camera could communicate with the machine learning backend, and making sure the electrical components would 
+                function as intended when closed inside the glasses.</p>
+
+
+                <p class="p-proj-desc"><b>Time management: </b>Since Design Studio times were limited and always had milestones to complete, I 
+                learned how to more efficiently get things done.</p>
+
+                <h3 class="p-proj-heading-rest"><u>Final Thoughts</u></h3>
+                <p class="p-proj-desc">Given the complexity of the solution in such a short amount of time, I think the project went quite 
+                smoothly. All members of the team came out of the project with learning something new technical, and with a better sense of 
+                how to split time up better 
+                    
+                    Given that this was the first ever engineering project anyone in the entire team had really undertaken, 
+                all things went very smoothly. I think we all learned something about how to work better in a team and how to approach engineering 
+                projects in general.</p>
+            </div>
+        </div> -->
     </body>
 </html>
