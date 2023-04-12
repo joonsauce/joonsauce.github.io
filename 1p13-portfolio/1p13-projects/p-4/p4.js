@@ -23,7 +23,6 @@ $(document).scroll(function() {
     var f2p = $('#figure2').offset().top - sc;
     var f3p = $('#figure3').offset().top - sc;
     var f4p = $('#figure4').offset().top - sc;
-    var f5p = $('#figure5').offset().top - sc;
 
     if (f4p <= 0) {
         $("#img1").stop().animate({width: "20vw"}, 1000);
